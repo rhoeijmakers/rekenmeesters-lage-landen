@@ -1,123 +1,52 @@
-# Hoofdstuk 9 – Dijkstra's twintig minuten
+# Hoofdstuk 9 – Tinbergens Modellen
 
-## DEEL IV: WEDEROPBOUW EN DE GEBOORTE VAN DE COMPUTER (1945–1975)
-
----
-
-Het is een zomerse ochtend in 1956. Amsterdam drinkt zijn eerste koffie. Op een terrasje in het centrum — Dijkstra zou later zeggen dat het een café was, al herinnert hij de naam niet meer — zit een vijfentwintigjarige wiskundige met zijn verloofde.
-
-Ze zijn op weg naar een meubelzaak, of misschien naar een park — de details wisselen in de verschillende versies van het verhaal, want herinneringen zijn geen computerprogramma's. Maar één ding is zeker: Dijkstra heeft een probleem in zijn hoofd. Hij heeft er al een tijdje over nagedacht. Nu ziet hij de oplossing.
-
-Het probleem is dit: gegeven een netwerk van steden verbonden door wegen, wat is de kortste route van stad A naar stad B?
-
-In twintig minuten, zonder papier, zonder potlood, denkt hij de oplossing uit.
+## DEEL IV: HET TIJDPERK VAN DE MAINSTREAM (1960–1985)
+*De economie als rekenmachine*
 
 ---
 
-### Het probleem van het kortste pad
+Terwijl in Amsterdam de ARRA zijn eerste berekeningen uitvoerde, was er in Den Haag een andere vorm van mathematische revolutie aan de gang. De 'rekenmeester' van dienst was Jan Tinbergen, een man die de economie niet langer zag als een onvoorspelbaar sociaal verschijnsel, maar als een machine die je kunt besturen.
 
-Het kortste-pad-probleem klinkt simpel. En voor een klein netwerk — vier steden, vijf wegen — is het ook simpel. Je kijkt gewoon naar alle mogelijke routes en kiest de kortste.
-
-Maar hoe groter het netwerk, hoe sneller het aantal mogelijke routes explodeert. Een netwerk van twintig steden heeft al miljarden mogelijke paden. Een netwerk van honderd steden heeft meer mogelijke paden dan er atomen in het heelal zijn. Brute force — alle paden uitproberen — is computationeel onmogelijk.
-
-Dijkstra's inzicht was dit: je hoeft niet alle paden te proberen. Je hoeft alleen slim te zoeken.
-
-Zijn algoritme begint bij de startstad en breidt zich geleidelijk uit naar buiten, steeds de dichtstbijzijnde onbezochte stad bezekend. Op elk moment weet het algoritme wat de kortste bekende afstand is tot elke stad die al is bezocht. Als een nieuwe stad wordt bezocht, wordt die afstand bijgewerkt als er een kortere route beschikbaar is.
-
-Het sleutelwoord is *greedy*: het algoritme maakt steeds de lokaal optimale keuze — ga naar de dichtstbijzijnde stad — en dit levert, zoals Dijkstra bewees, het globaal optimale resultaat op. Je hoeft niet alles te proberen. Je hoeft alleen het juiste te doen op elk moment.
-
-Het algoritme werkt in polynomiale tijd: voor een netwerk met *n* knopen heeft het orde *n²* stappen nodig. Vergelijk dat met de exponentieel groeiende brute-force aanpak. Het verschil is de verschil tussen een rekening die je kunt betalen en een rekening die het universum failliet zou maken.
+Tinbergen was opgeleid als natuurkundige bij Paul Ehrenfest in Leiden. Zijn achtergrond was die van de kwantummechanica en de statistische mechanica. Hij bracht diezelfde wetenschappelijke precisie — de drang naar wetmatigheden en kwantificering — naar een vakgebied dat tot dan toe vooral gedomineerd werd door kwalitatieve beschrijvingen: de economie.
 
 ---
 
-### De man achter het algoritme
+### De geboorte van de econometrie
 
-Edsger Wybe Dijkstra werd geboren op 11 mei 1930 in Rotterdam. Zijn vader was chemicus, zijn moeder wiskundige — een achtergrond die hij zou omschrijven als ideaal voor iemand die van precisie houdt.
+Tinbergen was de eerste die op grote schaal wiskundige modellen gebruikte om economische verschijnselen te verklaren. Hij geloofde dat de complexiteit van de markt kon worden teruggebracht tot een stelsel van lineaire vergelijkingen. In 1936 publiceerde hij zijn eerste macro-economische model voor Nederland, bestaande uit 24 vergelijkingen die de onderlinge relaties tussen prijzen, lonen, investeringen en consumptie beschreven.
 
-Hij was briljant op school zonder dat het hem veel moeite leek te kosten. Hij overwoog een carrière in de rechten — zijn vader drong erop aan — maar koos uiteindelijk voor theoretische fysica. In Leiden studerend ontdekte hij de informatica — of liever, de informatica ontdekte hem.
-
-In 1952 begon hij als programmeur bij het Mathematisch Centrum in Amsterdam. Hij werkte direct voor Van Wijngaarden. Het was een onwaarschijnlijke combinatie: de rigoureuze theoreticus Van Wijngaarden en de jonge, charismatische Dijkstra die liever nadacht over waarom iets werkte dan over hoe je het moest doen.
-
-In 1956 — het jaar van de café-inval — was Dijkstra 25 jaar oud en al een erkende figuur in de Nederlandse computergemeenschap. Hij had al bijgedragen aan de programmering van de ARMAC, de opvolger van de ARRA. Hij dacht in algoritmen op een manier die zijn collega's verbaasde: altijd op zoek naar het principe achter de methode, de reden achter de stap.
+Het was een revolutionair concept. Voor het eerst kon men proberen te berekenen wat het effect zou zijn van een bepaalde maatregel — bijvoorbeeld een verhoging van de belastingen — op de werkgelegenheid over vijf jaar. De economie was meetbaar geworden. De 'rekenmeesters' hadden een nieuw domein veroverd: het sociale leven zelf.
 
 ---
 
-### Een algoritme als kunstwerk
+### Het CPB: De cockpit van de macht
 
-Dijkstra publiceerde het algoritme in 1959 in *Numerische Mathematik*, een Duits wiskundetijdschrift. Het artikel was drie pagina's lang. De beschrijving van het algoritme zelf besloeg minder dan een pagina.
+Na de Tweede Wereldoorlog werd Tinbergen de eerste directeur van het Centraal Planbureau (CPB). De naam was veelzeggend: in de geest van de wederopbouw moest de economie worden 'gepland'. Het CPB werd de cockpit van waaruit de Nederlandse regering de koers van het land bepaalde.
 
-Het was bijna provocatief eenvoudig.
+De modellen van het CPB werden de basis voor de sociaal-economische politiek. Alles werd doorgerekend: de loonpolitiek, de industrialisatie van de jaren vijftig, de opbouw van de verzorgingsstaat. De politici hielden de handen aan het stuur, maar het waren de rekenmeesters van het CPB die de routekaarten tekenden.
 
-Dijkstra geloofde — hij zou dit zijn hele leven blijven herhalen, in lezingen en essays en de legendarische handgeschreven documenten die hij zijn EWD-nummers noemde — dat elegantie een kwaliteitskenmerk is. Niet een luxe, maar een noodzaak.
-
-"Als debugging het proces is van het verwijderen van bugs," schreef hij ergens in de jaren zeventig, "dan moet programmeren het proces zijn van het introduceren ervan." De grap had een serieuze kern: code die simpel is, heeft minder bugs. Code die elegant is, is makkelijker te begrijpen. Code die begrijpelijk is, is makkelijker te onderhouden. En onderhoud is 90% van de levensduur van software.
-
-Dijkstra's algoritme is elegant. Het heeft geen onnodige stappen. Elk element doet precies wat het moet doen. Het is zo compact dat het in een paar regels pseudocode kan worden opgeschreven, en zo krachtig dat het de basis is van vrijwel elk routealgoritme dat vandaag de dag bestaat.
+Het geloof in de maakbaarheid van de samenleving was nergens zo sterk als in de modellen van Tinbergen. Als je de knoppen van de economische machine maar goed genoeg bediende, kon je werkloosheid, inflatie en ongelijkheid uitbannen. Het was de ultieme droom van de verlichting, gevangen in een stelsel van vergelijkingen.
 
 ---
 
-### Van café naar GPS
+### De Nobelprijs en de schaduwzijde
 
-Welke route het u ook maakt — op uw telefoon, in uw navigatiesysteem in de auto, in de routeplanner op de website van de NS — ergens in de berekening zit Dijkstra's algoritme, of een variant erop.
+In 1969 ontving Jan Tinbergen, samen met de Noor Ragnar Frisch, de allereerste Nobelprijs voor de Economie. Het was de internationale erkenning van zijn visie: dat de economie een serieuze wetenschap was geworden, gebaseerd op data en modellen.
 
-Google Maps gebruikt een combinatie van Dijkstra's algoritme en A*, een verfijnde versie die gebruik maakt van heuristieken om nog sneller te zoeken. OpenStreetMap, de open kaart die door vrijwilligers wordt gebouwd en door duizenden toepassingen wordt gebruikt, doet hetzelfde.
+Maar de successen hadden ook een schaduwzijde. De modellen van Tinbergen gingen uit van een rationele wereld, waarin mensen zich gedragen als voorspelbare eenheden. Ze hielden minder rekening met de menselijke psychologie, met onvoorspelbare schokken van buitenaf, of met de ecologische grenzen aan de groei.
 
-De pakketbezorger die uw bestelling optimaal routeert. Het vliegtuig dat zijn vluchtpad bepaalt. Het IP-pakket dat via duizenden routers zijn weg zoekt naar uw computer. Al deze systemen lossen varianten op van het kortste-pad-probleem. Al deze systemen staan op de schouders van een vijfentwintigjarige wiskundige die op een zomerochtend in Amsterdam iets inzag dat zijn verloofde kon wachten.
-
----
-
-### GOTO is schadelijk
-
-Dijkstra's tweede grote bijdrage was misschien nog invloedrijker, maar is minder bekend buiten de computerwetenschappelijke wereld.
-
-In 1968 stuurde hij een brief aan de Communications of the ACM — het toonaangevende tijdschrift voor computerwetenschappers. De brief was getiteld: "Go To Statement Considered Harmful."
-
-De GOTO-instructie was in die jaren een van de meest gebruikte in programmeercode. Het stelde programmeurs in staat om op elk willekeurig punt in een programma te springen — een soort teleporter voor code. Het was krachtig. Het was flexibel. Het was ook een ramp.
-
-Programma's met veel GOTO-instructies werden al snel onleesbaar. De uitvoering sprong heen en weer door de code op een manier die niemand meer kon volgen, zelf de programmeur niet. Dit was "spaghetti code" — een term die in die jaren werd gemunt — en het veroorzaakte bugs die bijna onmogelijk te vinden waren.
-
-Dijkstra betoogde in zijn brief dat GOTO nooit nodig is. Dat alle programma's konden worden geschreven met drie eenvoudige controlestructuren: sequentie (doe A, dan B), keuze (als X, doe A, anders doe B) en herhaling (blijf A doen zolang X waar is). Dit is gestructureerd programmeren.
-
-De reacties waren heftig. Sommige programmeurs voelden zich aangevallen. GOTO was hun gereedschap, en nu zei een Nederlandse theoreticus dat ze het verkeerd gebruikten?
-
-Maar Dijkstra had gelijk. In de decennia die volgden, verdween GOTO uit vrijwel alle moderne programmeertalen. Python heeft geen GOTO. Java heeft geen GOTO. JavaScript heeft geen GOTO. De brief van drie pagina's veranderde hoe de wereld programma's schrijft.
+De 'rekenmeesters'-geest had de neiging om alles wat niet in een getal te vangen was, te negeren. De kwaliteit van leven, de waarde van de natuur, de sociale cohesie — ze pasten niet in de vergelijkingen. De economie was efficiënt geworden, maar soms ook kil.
 
 ---
 
-### De filosoof van het algoritme
+### De erfenis van de CPB-cultuur
 
-In 1972 won Dijkstra de Turing Award — het equivalent van de Nobelprijs in de informatica. In zijn acceptance speech zei hij iets wat veel van zijn toehoorders verbaasde: "Computerwetenschappers moeten meer filosofen worden, niet minder."
+Vandaag de dag is de invloed van Tinbergen nog steeds overal merkbaar in de Nederlandse politiek. Geen enkel ander land heeft een instituut dat zo machtig is als het CPB, waarvan de doorrekeningen van verkiezingsprogramma's het politieke debat domineren. De 'rekenmeester' is een permanente adviseur van de macht geworden.
 
-Hij meende het. Dijkstra geloofde dat de grondslagen van de informatica niet technisch maar wiskundig en filosofisch waren. Dat de vraag hoe een programma correct is — niet waarschijnlijk correct, maar bewezen correct — net zo fundamenteel was als de vraag of een wiskundig bewijs klopt.
+Jan Tinbergen stierf in 1994. Hij was een bescheiden man, een overtuigd socialist die zijn hele leven wijdde aan het verbeteren van de wereld door middel van getallen. Hij heeft ons geleerd dat we niet langer overgeleverd zijn aan de grillen van de markt, maar dat we die markt kunnen begrijpen en sturen.
 
-In de late jaren zeventig en tachtig werkte hij aan formele methoden voor programmacorrectie: wiskundige technieken om te *bewijzen* dat een programma doet wat het moet doen. Het was abstract werk, ver van de dagelijkse praktijk van softwareontwikkeling.
-
-Maar de principes die hij formuleerde — denk na over de eigenschappen van je programma voordat je het schrijft, bewijz dat je algoritme klopt voordat je het implementeert — zijn nog steeds de basis van de beste softwareontwikkelpraktijken.
-
-Elke keer dat een moderne programmeur een "unit test" schrijft — een klein programmaatje dat controleert of een functie doet wat ze moet doen — handelt ze in de geest van Dijkstra.
+Maar hij heeft ons ook een waarschuwing nagelaten: een model is slechts een model. De werkelijkheid is altijd groter, complexer en grilliger dan de meest geavanceerde machine kan berekenen. De 'rekenmeesters' moeten altijd bereid zijn om hun cijfers te toetsen aan de menselijke maat.
 
 ---
 
-### Eindhoven en de American Graffiti
-
-In 1984 verhuisde Dijkstra van de TU Eindhoven — waar hij hoogleraar was geworden — naar de Universiteit van Texas in Austin. Hij emigreerde, deels vanwege de grotere middelen in de Verenigde Staten, deels vanwege een teleurstelling over de Nederlandse academische cultuur die hij nooit helemaal articuleerde.
-
-Maar hij bleef schrijven. De EWD-documenten — handgeschreven op papier, gefotokopeerd en verspreid, later gescand en online gezet — gingen door tot kort voor zijn dood in 2002. In totaal zijn er meer dan 1.300, over onderwerpen die variëren van algoritmische puzzels tot bittere observaties over de staat van de informatica-opleiding.
-
-Hij stierf op 6 augustus 2002 in Nuenen, Noord-Brabant, het dorp waar hij zijn pensioen doorbracht. Zijn laatste EWD-document schreef hij een paar weken voor zijn dood.
-
-Op zijn grafsteen staat: "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
-
----
-
-### Het algoritme dat altijd loopt
-
-Terwijl u dit leest, voert ergens een computer een kortste-pad-berekening uit. Misschien in een datacenter in Iowa, misschien in een telefoon in uw zak, misschien in een server in Japan. Elke seconde worden er miljoenen van deze berekeningen uitgevoerd, voor navigatiesystemen, voor netwerken, voor logistieke platforms.
-
-Ze lopen allemaal op een idee dat een vijfentwintigjarige Nederlander bedacht in twintig minuten, op een zomerochtend in Amsterdam, zonder papier, zonder potlood.
-
-Dat is de kracht van het juiste idee op het juiste moment.
-
----
-
-*→ Verder naar [Hoofdstuk 10: Philips en het tijdperk van de cassette](deel4_h10.md)*
+*→ Verder naar [Hoofdstuk 10: Signaal en Radar](deel4_h10.md)*

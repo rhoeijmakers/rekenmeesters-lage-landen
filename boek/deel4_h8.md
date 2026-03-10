@@ -1,104 +1,52 @@
-# Hoofdstuk 8 – Het Mathematisch Centrum
+# Hoofdstuk 8 – Analoog vs Digitaal
 
-## DEEL IV: WEDEROPBOUW EN DE GEBOORTE VAN DE COMPUTER (1945–1975)
-*Nederland heruitvindt zichzelf*
-
----
-
-Amsterdam, februari 1946. De stad herrijst uit vijf jaar bezetting. De Hongerwinter van 1944 heeft twinduizend mensen het leven gekost. Het tramnet rijdt nog niet. De meeste bruggen zijn opgeblazen door de terugtrekkende Duitsers. In het noorden van de stad liggen uitgebrande huizen waaruit alles is geplunderd — hout voor brandstof, metaal voor de Duitse oorlogsindustrie.
-
-En toch.
-
-In een gebouw aan het Tweede Boerhaavestraat kwamen wiskundigen en statistici bijeen om iets op te richten wat Nederland nooit had gehad: een nationaal wiskundig centrum. Een plek waar rekenwetenschappers konden samenwerken, waar de methoden van de wiskunde konden worden toegepast op de problemen van de wederopbouw.
-
-Het Mathematisch Centrum — het latere Centrum Wiskunde & Informatica, CWI — werd opgericht op 11 februari 1946. Het was een van de eerste wetenschappelijke instituten die na de bevrijding in Nederland werden opgericht. En het was precies op tijd.
+## DEEL IV: HET TIJDPERK VAN DE MAINSTREAM (1960–1985)
+*De Deltar en de strijd om de rekenkracht*
 
 ---
 
-### De man die Nederland leerde rekenen
+Toen op 1 februari 1953 de dijken braken in Zeeland, werd pijnlijk duidelijk dat de intuïtie van de waterbouwers niet langer genoeg was. De complexiteit van de stromingen, het samenspel van getij, wind en bodemgesteldheid vereiste een nieuwe vorm van berekening. Maar de digitale computers van die tijd, zoals de ARRA, waren nog te zwak en te traag voor de gigantische simulaties die nodig waren voor het Deltaplan.
 
-Adriaan van Wijngaarden was 29 jaar oud toen hij als hoofd van de nieuwe afdeling Numerieke Wiskunde aan het Mathematisch Centrum begon. Hij was opgeleid als werktuigbouwkundig ingenieur en had zijn promotie al achter de rug, maar zijn echte interesse lag bij een vraag die in de jaren veertig nauwelijks als wetenschappelijk werd erkend: hoe kun je een machine laten rekenen?
-
-Het klinkt triviaal. Maar rekenen — serieus rekenen, op de schaal die de wederopbouw vereiste: dijkberekeningen, brugbelastingen, economische modellen — was in 1946 een nachtmerrie. Je had rekensters: vrouwen (bijna altijd vrouwen) die de hele dag met handrekenmachines getallen verwerkte. Een complexe berekening kon weken duren. Een fout in stap 3 betekende dat je opnieuw moest beginnen.
-
-Van Wijngaarden zag wat zijn Amerikaanse tijdgenoten — John von Neumann bij ENIAC, Turing bij zijn Colossus — hadden begrepen: een machine kon dit overnemen. Een machine die instructies kon uitvoeren, die tussenresultaten kon opslaan, die niet moe werd of fouten maakte.
-
-Hij reisde naar de Verenigde Staten om te zien wat er was gebouwd. Hij sprak met von Neumann. Hij bezocht de laboratoria in Cambridge en Manchester. En hij kwam terug met een plan.
+De oplossing kwam van Johan van Veen, de eigenzinnige hoofdingenieur van de Rijkswaterstaat. Hij was een man die de zee zag als een levend organisme, maar ook als een hydraulisch systeem dat onderworpen was aan wetmatigheden. Hij begreep dat als je de zee niet kon vangen in een digitale computer, je hem misschien kon vangen in een andere vorm: elektriciteit.
 
 ---
 
-### ARRA: de eerste Nederlandse computer
+### De Deltar: Rekenen met ampères
 
-Het plan was ambitieus voor een land in wederopbouw: bouw een computer.
+In 1960 werd de Deltar voltooid — de Delta Getij Analogon Rekenmachine. Het was geen computer in de zin die wij nu kennen. Het was een analoge machine, bestaande uit honderden kasten vol spoelen, weerstanden en condensatoren.
 
-De ARRA — Automatische Relais Rekenmachine Amsterdam — was de eerste computer die volledig in Nederland werd ontworpen en gebouwd. Ze was gereed in 1952, acht jaar na het einde van de oorlog. Ze vulde een hele kamer, woog enkele honderden kilogram, en rekte haar geheugen uit over ferritkern-magnetische ringen die met de hand moesten worden ingevoerd.
+Het principe was even briljant als eenvoudig: elektriciteit in een netwerk gedraagt zich precies zoals water in een stelsel van kanalen en zeearmen. Spanning komt overeen met waterhoogte, stroomsterkte met het debiet. De weerstanden simuleerden de wrijving van de bodem, condensatoren de capaciteit van de wateroppervlakten.
 
-Vergeleken met de computers van vandaag was de ARRA primitief. Ze had een klokfrequentie van 16 kHz. Een moderne telefoon heeft een klokfrequentie van meer dan 3 GHz — meer dan 180.000 keer zo snel. Ze kon een paar honderd getallen opslaan in haar werkgeheugen.
-
-Maar ze werkte. En ze deed iets wat handrekenmachines niet konden: ze volgde een programma. Een reeks instructies die kon worden aangepast, uitgebreid, verbeterd, opnieuw gebruikt.
+Met de Deltar kon men 'rekenen' door aan knoppen te draaien. Veranderde je de weerstand in een bepaalde tak van het netwerk, dan zag je onmiddellijk op de meters wat het effect was op de waterstanden elders in de delta. Het was een real-time simulatie van de krachten van de natuur. De ingenieurs konden scenario's testen voor de bouw van de Oosterscheldekering nog voordat er één steen was gelegd.
 
 ---
 
-### ALGOL en de taal van de machine
+### De superioriteit van de analoge 'rekenmeester'
 
-De echt transformatieve bijdrage van Van Wijngaarden lag niet in hardware maar in software — of liever, in de taal waarmee mensen met machines konden communiceren.
+Gedurende de jaren zestig was de Deltar de onbetwiste koning van de Nederlandse waterbouwkunde. Digitale computers hadden uren of zelfs dagen nodig om een getijdecyclus door te rekenen; de Deltar deed het in enkele minuten. Het was een triumph van de analoge geest: de drang om een model te bouwen dat fysiek verbonden was met de werkelijkheid die het simuleerde.
 
-In de vroege computertijden moest elke machine worden geprogrammeerd in haar eigen machinetaal: een reeks nullen en enen die direct overeenkwamen met de elektrische signalen in de circuits. Dat was niet alleen vervelend maar ook gevaarlijk: een fout in één instructie kon alles doen crashen, en het debuggen van machinetaal vereiste een bijna bovenmenselijke precisie.
-
-De oplossing was een programmeertaal op hoger niveau: een taal die dichter stond bij de menselijke manier van denken, die door de machine zelf kon worden vertaald naar machinetaal. FORTRAN, ontwikkeld door IBM in 1957, was de eerste succesvolle poging.
-
-Maar Van Wijngaarden en zijn collega's in het Mathematisch Centrum ambieerden iets breder. Ze wilden een universele taal, een taal die niet gebonden was aan één machine of één fabrikant, die internationaal kon worden gebruikt en door iedereen begrepen.
-
-In 1958 begon de samenwerking die zou leiden tot ALGOL — ALGOrithmic Language. Het was een internationale inspanning waarbij wiskundigen en computerwetenschappers uit Amerika, Duitsland, Zwitserland, Denemarken en Nederland samenwerkten. Van Wijngaarden was de Nederlandse bijdrage — en meer dan dat.
-
-ALGOL introduceerde twee concepten die nog steeds de basis vormen van vrijwel alle moderne programmeertalen:
-
-**Blokstructuur**: de organisatie van code in geneste blokken, waarbij variabelen alleen bestaan binnen het blok waarin ze worden gedefinieerd. Dit maakte het mogelijk om complexe programma's op te bouwen uit beheersbare eenheden.
-
-**Recursie**: de mogelijkheid voor een procedure om zichzelf op te roepen. Dit klinkt wiskundig abstract, maar het is de techniek die ten grondslag ligt aan vrijwel alles van zoekmachines tot het comprimeren van bestanden.
-
-ALGOL zelf heeft de strijd om de programmeertaalmarkt verloren van FORTRAN en later COBOL en C. Maar zijn ideeën wonnen. Pascal, C, Java, Python — elk ervan is een nakomeling van ALGOL.
+De ingenieurs die de Deltar bedienden, ontwikkelden een bijna zintuiglijk gevoel voor hun machine. Ze hoorden aan het gezoem en zagen aan de wijzers of de berekening klopte. Het was rekenen met de vingers aan de knoppen, een directe koppeling tussen het menselijk brein en de elektrische simulatie van de zee.
 
 ---
 
-### Van Wijngaardens nalatenschap: de grote verborgen vader
+### De onvermijdelijke winst van de nul en de één
 
-Van Wijngaarden is de meest ondergewaardeerde figuur in de Nederlandse informaticageschiedenis.
+Maar terwijl de Deltar de delta doorrekende, groeide de kracht van de digitale computer exponentieel. De wet van Moore begon zijn werk te doen. Transistoren vervingen vacuümbuizen, en programmeertalen als ALGOL maakten het mogelijk om steeds complexere modellen te bouwen.
 
-Hij leidde het Mathematisch Centrum tot 1980. In die periode vormde hij een generatie computerwetenSchappers die Nederland op de kaart zou zetten: Edsger Dijkstra was zijn promovendus. Lambert Meertens, die later mede verantwoordelijk was voor de programmeertaal ABC (de directe voorloper van Python), werkte onder zijn supervisie. De lijnen die van Van Wijngaarden lopen naar de informaticastradition van Dijkstra en vervolgens naar Van Rossum en Python zijn direct en traceerbaar.
+De strijd tussen analoog en digitaal was niet alleen technisch, maar ook filosofisch. De analoge denkers hielden vast aan de continuïteit en de fysieke representatie. De digitale denkers geloofden in de kracht van de abstractie: alles kon worden teruggebracht tot een reeks nullen en enen, mits je er maar genoeg van had.
 
-Maar Van Wijngaarden is buiten een kleine kring van specialisten nauwelijks bekend. Geen straten, geen gebouwen, geen nationale herdenking. Terwijl hij misschien meer dan enig andere Nederlander de taal heeft mede geschapen waarmee de digitale wereld communiceert.
-
-Dat is het lot van de architecten: de fundering is onzichtbaar, maar alles staat erop.
+Rond 1980 was het pleit beslecht. De nieuwe digitale supercomputers konden simulaties uitvoeren die zelfs voor de Deltar te complex waren. De analoge machine werd een museumstuk, een herinnering aan een tijd waarin we de wereld probeerden te vangen in elektriciteit in plaats van in informatie.
 
 ---
 
-### De wederopbouw als informatievraagstuk
+### De erfenis van Johan van Veen
 
-Het Mathematisch Centrum was niet alleen een wetenschappelijk instituut. Het was een antwoord op een politiek probleem.
+Johan van Veen stierf in 1959, vlak voordat de Deltar volledig operationeel was. Hij wordt vaak de 'vader van het Deltaplan' genoemd, maar hij was ook de vader van de Nederlandse simulatiecultuur. Hij begreep dat we de wereld alleen kunnen beheersen als we hem kunnen modelleren.
 
-Nederland had na de oorlog ongelooflijk veel te bouwen: woningen voor de evacuees, bruggen voor de doorgesneden verbindingen, dijken voor de overstroomde polders, fabrieken voor de industrie die letterlijk was weggesloopt. Al die projecten vereisten berekeningen — belastingsberekeningen, waterstandsberekeningen, economische prognosticaties.
+De overgang van analoog naar digitaal betekende niet het einde van de 'rekenmeesters'-geest; het was slechts een verfijning van het instrumentarium. Dezelfde drang naar precisie, hetzelfde verlangen naar controle over de elementen, vloeide over in de algoritmen van de moderne waterbouwers.
 
-Met handrekenmachines en papier en potlood was dat nauwelijks te doen. Met een computer was het mogelijk.
-
-De vroegste toepassingen van de ARRA waren praktisch: berekeningen voor de deltawaterbouwers, statistieken voor het Centraal Bureau voor de Statistiek, numerieke analyses voor Philips. Het Mathematisch Centrum was geen ivoren toren. Het werkte voor de wederopbouw.
-
-Dit patroon — wetenschap in dienst van de concrete nood van het moment — is een draad die door de hele Nederlandse wetenschapsgeschiedenis loopt. Stevin berekende dijken voor Prins Maurits. Snellius mat het land voor de kartografen van de VOC. Van Wijngaarden bouwde een computer voor de wederopbouwers van 1946.
-
-Groot denken, concreet doen.
+Vandaag de dag rekenen de supercomputers van de Deltares-instituten met miljarden datapunten de effecten van klimaatverandering door. Maar in de kern doen ze hetzelfde als Johan van Veen met zijn weerstanden en spoelen: ze proberen de toekomst te vangen in getallen, om het land te beschermen tegen de zee.
 
 ---
 
-### Het zaad van de digitale revolutie
-
-In 1961 verhuisde het Mathematisch Centrum naar een nieuw gebouw aan het Kruislaan in Amsterdam. Het groeide. Het trok studenten, onderzoekers en later ook industriële opdrachtgevers. In de jaren zestig en zeventig werkte er een groep die later de hele informaticawereld zou beïnvloeden.
-
-Van Wijngaarden was de vader. Dijkstra was de erfgenaam. En beiden legden de grondslagen voor een Nederlandse informaticacultuur die geloofde in elegantie, precisie en het zoeken naar de meest fundamentele oplossing — niet de snelste of de goedkoopste, maar de meest correcte.
-
-Die cultuur was niet nationaal chauvinisme. Het was een wetenschappelijke overtuiging: dat de beste code die is die je niet hoeft te fixen, dat het beste ontwerp dat is dat niet hoeft te worden uitgelegd, dat de elegante oplossing op de lange termijn altijd efficiënter is dan de brute-force benadering.
-
-In het volgende hoofdstuk zien we hoe Dijkstra die cultuur vertegenwoordigde — en hoe hij in twintig minuten iets bedacht wat miljarden mensen dagelijks gebruiken.
-
----
-
-*→ Verder naar [Hoofdstuk 9: Dijkstra's twintig minuten](deel4_h9.md)*
+*→ Verder naar [Hoofdstuk 9: Tinbergens Modellen](deel4_h9.md)*

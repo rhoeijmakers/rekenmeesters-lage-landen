@@ -1,113 +1,58 @@
-# Hoofdstuk 13 – ASML: de machine die chips maakt
+# Hoofdstuk 13 – Dijkstra's Twintig Minuten
 
-## DEEL V: DIGITALE PIONIERS (1975–2000)
-
----
-
-Veldhoven, 2023. In een cleanroom die schoner is dan een operatiekamer — schoner dan elk laboratorium dat Kamerlingh Onnes ooit bezocht — staat een machine die meer dan 200 miljoen euro kost.
-
-Ze weegt 180.000 kilogram. Ze bevat meer dan 100.000 onderdelen. Haar grootste component is een spiegel waarvan het oppervlak nauwkeuriger is gemaakt dan een golf licht dik is. Ze is de enige machine ter wereld die de meest geavanceerde chips kan maken — de chips die in de nieuwste iPhones zitten, in de supercomputers die AI-modellen trainen, in de militaire systemen die regeringen liever geheim houden.
-
-Ze heet de EUV-lithografiemachine. Ze wordt gemaakt door ASML. En het enige bedrijf dat haar kan bouwen, zit in een provinciestad in Noord-Brabant.
+## DEEL V: DIGITALE PIONIERS & INFRASTRUCTUUR (1985–2010)
+*Algoritmen en elegante code*
 
 ---
 
-### Het schuurtje naast Philips
+Het is een zomerse ochtend in 1956. Amsterdam drinkt zijn eerste koffie. Op een terrasje in het centrum — Edsger Dijkstra zou later zeggen dat het een café was, al herinnert hij de naam niet meer — zit een vijfentwintigjarige wiskundige met zijn verloofde.
 
-In 1984 was ASML geen indrukwekkend bedrijf. Het was een joint venture tussen Philips en de Belgische chipmachine-fabrikant IMEC, gehuisvest in een lek schuurtje naast de Philips-campus in Eindhoven.
+Ze zijn op weg naar een meubelzaak, of misschien naar een park — de details wisselen in de verschillende versies van het verhaal, want herinneringen zijn geen computerprogramma's. Maar één ding is zeker: Dijkstra heeft een probleem in zijn hoofd. Hij heeft er al een tijdje over nagedacht. Nu ziet hij de oplossing.
 
-Het doel was simpel: goedkope fotolithografiemachines bouwen. Fotolithografie is het proces waarmee chippatronen op silicium worden geëtst: een lichtbron schijnt door een masker (een soort negatief van het gewenste patroon) op een met lichtgevoelige chemicaliën bedekte siliciumschijf. Waar het licht valt, verandert de chemische structuur van de schijf. De niet-bestraalde chemicaliën worden weggegeten. Wat overblijft is het patroon.
+Het probleem is dit: gegeven een netwerk van steden verbonden door wegen, wat is de kortste route van stad A naar stad B?
 
-Hoe kleiner het patroon, hoe meer transistors op een chip passen. Hoe meer transistors, hoe sneller de chip. Dit is de kern van Moore's Law — de observatie van Intel-medeoprichter Gordon Moore dat het aantal transistors op een chip elke twee jaar verdubbelt.
-
-Moore's Law is niet een wet van de natuur. Het is een ingenieursuitdaging. En de uitdaging van de afgelopen decennia was: hoe maak je het licht dat de patronen belicht kleiner — in golflente, want kleinere golflente betekent fijnere patronen?
+In twintig minuten, zonder papier, zonder potlood, denkt hij de oplossing uit. Het resultaat — Dijkstra's algoritme — is vandaag de dag de basis van vrijwel elk navigatiesysteem ter wereld.
 
 ---
 
-### Van deep UV naar extreme UV
+### De man van de precisie
 
-In de vroege jaren negentig maakten lithografiemachines gebruik van ultraviolet licht met een golflente van 365 nanometer — de i-lijn. Concurrenten als Nikon en Canon maakten soortgelijke machines.
+Edsger Wybe Dijkstra werd geboren op 11 mei 1930 in Rotterdam. Zijn vader was chemicus, zijn moeder wiskundige — een achtergrond die hij zou omschrijven als ideaal voor iemand die van precisie houdt. In 1952 begon hij als programmeur bij het Mathematisch Centrum in Amsterdam, waar hij werkte onder Adriaan van Wijngaarden.
 
-ASML was in die jaren geen marktleider. Het was een middelgroot bedrijf dat goede machines maakte maar niet de beste. Nikon was de dominante speler, met meer marktaandeel en meer technologische prestige.
-
-Maar ASML maakte een strategische keuze die zijn concurrenten niet durfden te maken: het gokte op de toekomst.
-
-In de vroege jaren negentig begon een klein team van ingenieurs bij ASML — en bij enkele partnerorganisaties in de VS — na te denken over de volgende grote stap in lithografie. Om patronen nog kleiner te maken dan de destijds beschikbare techologie toestond, had je licht nodig met een golflente van slechts 13,5 nanometer. Dat is extreem ultraviolet licht — EUV.
-
-EUV-licht bestaat normaal gesproken niet in bruikbare hoeveelheden op aarde. Je moet het genereren door een laserstraal op kleine druppeltjes vloeibaar tin te schieten, waarna een plasma-explosie EUV-licht uitstraalt. Het EUV-licht kan niet door lucht reizen — de moleculen van lucht absorberen het — dus het hele systeem moet in vacuüm opereren. EUV-licht kan ook niet worden weerspiegeld door gewone spiegels — dus je hebt spiegels nodig bedekt met lagen van atoomdikte nauwkeurig gedeponeerd materiaal.
-
-In de jaren negentig zeiden veel ingenieurs dat dit onmogelijk was. Te veel technische uitdagingen. Te groot. Te duur.
-
-ASML geloofde het niet.
+Dijkstra was geen gewone programmeur. Hij had een hartgrondige hekel aan 'rommelige' software en geloofde dat programmeren een vorm van wiskunde was. Hij was een 'rekenmeester' pur sang: iemand die de wereld wilde vangen in elegante, bewijsbare structuren. Zijn invloed op de vroege informatica was enorm, niet alleen door zijn algoritmen, maar vooral door zijn filosofie over hoe je software moet ontwerpen.
 
 ---
 
-### Twee decennia van engelengeduld
+### Het kortste-pad-probleem
 
-Het EUV-project begon officieel in 1997 als een samenwerking tussen ASML, Intel, AMD en Motorola — later toegetreden door Samsung en andere chipmakers. Het consortium investeerde miljarden. ASML coördineerde het technische werk.
+Het kortste-pad-probleem klinkt simpel. Voor een klein netwerk is het ook simpel. Maar hoe groter het netwerk, hoe sneller het aantal mogelijke routes explodeert. Dijkstra's inzicht was dit: je hoeft niet alle paden te proberen. Je hoeft alleen slim te zoeken.
 
-De eerste prototypes faalden. De tweede generatie faalden ook. De lichtbron was te zwak. De spiegels waren niet nauwkeurig genoeg. De resiste-laag op de siliciumschijf reageerde niet goed op EUV-licht.
-
-Keer op keer loste ASML een probleem op, om vervolgens het volgende probleem te ontdekken. Keer op keer moest het zijn aandeelhouders overtuigen dat dit het waard was. In de slechte jaren, begin jaren 2000, stond ASML een keer op de rand van faillissement: de dotcom-crash droogde de markt voor chipmachines op.
-
-Het overleefde.
-
-In 2010 verscheepte ASML de eerste EUV-machine naar klanten: voor evaluatie, niet voor productie. Productiewaardige EUV-machines arriveerden bij klanten in 2019. De eerste iPhone die met EUV-chips was gebouwd, was de iPhone 12 van 2020.
-
-Meer dan twintig jaar van investering, mislukkingen en verbetering. Dat is de tijdschaal van fundamentele technologische innovatie.
+Zijn algoritme begint bij de startstad en breidt zich geleidelijk uit naar buiten, steeds de dichtstbijzijnde onbezochte stad bezoeker. Het sleutelwoord is *greedy*: het algoritme maakt steeds de lokaal optimale keuze — ga naar de dichtstbijzijnde stad — en dit levert, zoals Dijkstra bewees, het globaal optimale resultaat op. Het is een triomf van de logica over de brute kracht.
 
 ---
 
-### Het ASML-ecosysteem
+### Tegen de 'spaghetti code'
 
-ASML maakt haar machines niet alleen.
+Dijkstra's tweede grote bijdrage was de strijd tegen de GOTO-instructie. In de vroege jaren van het programmeren gebruikten programmeurs vaak de GOTO-instructie om kriskras door hun code te springen. Dit leidde tot wat Dijkstra 'spaghetti code' noemde: onleesbare, ononderhoudbare programma's vol verborgen fouten.
 
-De optica — de spiegels en lenzen die het EUV-licht sturen — worden gemaakt door Carl Zeiss SMT in Jena, Duitsland. De lichtbron — het systeem dat de laser op de tindruppels schiet — wordt gemaakt door Cymer, een Amerikaans bedrijf dat ASML in 2013 overnam. Honderden andere leveranciers maken mechanische onderdelen, electronica, vacuümsystemen, software.
-
-ASML zelf beschrijft zichzelf als een systeemintegrator: een bedrijf dat de beste componenten van de beste leveranciers samenbrengt tot een werkend geheel.
-
-Maar de systeemintegratie is zelf een kerncompetentie. ASML weet beter dan wie ook hoe al die componenten op elkaar inwerken, welke toleranties ze moeten hebben, hoe ze moeten worden gekalibreerd. Die kennis — verspreid over duizenden ingenieurs, vastgelegd in miljoenen pagina's documentatie — is de werkelijke concurrentiebodem.
-
-Het is, in essentie, hetzelfde als wat de VOC drie eeuwen eerder deed: kennis aggregeren en systematiseren op een manier die geen ander kon evenaren.
+In 1968 schreef hij zijn beroemde brief: "Go To Statement Considered Harmful". Hij betoogde dat alle programma's konden worden geschreven met drie eenvoudige controlestructuren: sequentie, keuze en herhaling. Dit was de geboorte van het gestructureerd programmeren. Het veranderde de informatica van een zwarte kunst in een serieuze ingenieursdiscipline.
 
 ---
 
-### Geopolitiek: ASML als schaakstuk
+### De elegantie van de eenvoud
 
-In 2018 weigerde de Nederlandse overheid, onder druk van de Amerikaanse regering, om een exportvergunning af te geven voor ASML's meest geavanceerde EUV-machine naar China.
+Dijkstra geloofde dat elegantie geen luxe was, maar een noodzaak. "Eenvoud is de voorwaarde voor betrouwbaarheid," zei hij vaak. Hij weigerde met computers te werken die hij niet volledig begreep, en hij schreef zijn duizenden essays — de beroemde EWD-documenten — met de hand, met een vulpen, in een handschrift dat even regelmatig en precies was als zijn denken.
 
-Het was een ongebruikelijke stap. Exportcontroles voor chipapparatuur hadden al decennia bestaan, maar ze waren zelden zo zichtbaar in het nieuws. Nu stond ASML plotseling op de voorpagina van de *Financial Times*, de *New York Times* en de *People's Daily* in China.
-
-De reden was simpel: wie de EUV-machine heeft, kan de geavanceerde chips maken. Wie die chips heeft, heeft de rekenkracht voor de snelste supercomputers, de beste militaire systemen, de meest geavanceerde AI. Chips zijn macht. En ASML is de enige die de machines maakt waarmee die chips worden gemaakt.
-
-Geen enkel ander bedrijf in de wereld heeft dit monopolie. Nikon en Canon — de Japanse concurrenten die in de jaren negentig marktleider waren — hebben de overstap naar EUV nooit gemaakt. ASML won de EUV-race en is nu de enige in de race.
-
-Dat maakt ASML tot een geopolitiek instrument. De VS gebruiken het om China's chipproductie te beperken. China reageert met eigen investeringsprogramma's om de achterstand in te lopen — maar dat zal, schatten de meeste analisten, minstens een decennium duren.
-
-In de tussentijd staat er in Veldhoven een bedrijf met een marktwaarde van meer dan 300 miljard euro — Europa's grootste technologiebedrijf — dat direct in het centrum staat van de meest consequente geopolitieke competitie van de eenentwintigste eeuw.
+Zijn weerstand tegen rommelige software was legendarisch. Hij zag de opkomst van commerciële softwarebedrijven met hun 'quick and dirty' methoden als een bedreiging voor de intellectuele integriteit van het vak. Voor Dijkstra was de rekenmeester een bewaker van de waarheid, die geen genoegen mocht nemen met minder dan de meest elegante oplossing.
 
 ---
 
-### De ASML-cultuur
+### De erfenis van Dijkstra
 
-Wie mensen bij ASML ontmoet, valt iets op: ze zijn trots, maar niet arrogant. Ze weten dat ze iets maken wat niemand anders kan. Maar ze weten ook hoe fragiel dat leiderschap is — hoe veel kennis nodig was om hier te komen, en hoe hard je moet werken om het te houden.
+In 1972 ontving Dijkstra de Turing Award, de 'Nobelprijs van de informatica'. Zijn nalatenschap is overal om ons heen. Elke keer dat u Google Maps gebruikt, elke keer dat u een stabiel computerprogramma draait, en elke keer dat een programmeur nadenkt over de structuur van zijn code, is Dijkstra's geest aanwezig.
 
-Het is een cultuur die herinnert aan Philips in zijn beste jaren: serieus ingenieurswerk, lange termijndenken, bereidheid om twintig jaar te investeren in iets wat misschien niet werkt.
-
-ASML rekruteert internationaal — haar workforce is een encyclopedie van nationaliteiten — maar het karakter van het bedrijf is herkenbaar Noord-Brabants: nuchter, hands-on, gericht op het concrete resultaat.
-
-Dat karakter heeft zijn wortels in de polders van de zeventiende eeuw. Simon Stevin zou het herkennen.
+Hij stierf in 2002, maar zijn boodschap is actueler dan ooit in een wereld die wordt gedomineerd door steeds complexere en ondoorzichtigere algoritmen. De rekenmeesters van vandaag moeten, in de geest van Dijkstra, blijven zoeken naar de schoonheid en de precisie van de eenvoud. Want in de informatica, zoals in de wiskunde, is de kortste weg niet alleen de meest efficiënte, maar ook de meest ware.
 
 ---
 
-### Het volgende hoofdstuk
-
-ASML bereidt zich voor op het volgende hoofdstuk van zijn eigen geschiedenis: High-NA EUV. Machines met een hogere numerieke apertuur — een maat voor de optische kwaliteit — die patronen nog kleiner kunnen maken. De eerste High-NA machines zijn in 2024 verscheept; de chipmakers bestellen ze al in grote aantallen.
-
-En voorbij High-NA? Niemand weet het zeker. Misschien nieuwe lichtbronnen. Misschien nieuwe chipartitecturen die het belang van kleinere patronen verminderen. Misschien quantumcomputing, dat een fundamenteel andere manier van rekenen vertegenwoordigt en andere fabricagetechnologieën vereist.
-
-Maar als er één les is uit de ASML-geschiedenis, is het deze: als het onmogelijk lijkt en het groot genoeg is, is het de moeite waard om te proberen.
-
----
-
-*→ Verder naar [Hoofdstuk 14: Booking.com en de platformeconomie](deel6_h14.md)*
+*→ Verder naar [Hoofdstuk 14: Python wordt geboren](deel6_h14.md)*

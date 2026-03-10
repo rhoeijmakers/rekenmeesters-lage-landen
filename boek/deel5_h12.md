@@ -1,97 +1,48 @@
-# Hoofdstuk 12 – Van PTT naar KPN: telecom in transitie
+# Hoofdstuk 12 – Slochteren en de NAM
 
-## DEEL V: DIGITALE PIONIERS (1975–2000)
-
----
-
-In 1752 reed de eerste postkoets van de Nederlandse overheid van Amsterdam naar Rotterdam. De rit duurde een dag. De koets vervoerde post, pakjes en af en toe een reiziger die bereid was het ongemak van de hobbelige wegen te verdragen.
-
-Meer dan twee eeuwen later, in de zomer van 2002, activeerde een KPN-klant in Amsterdam haar mobiele i-mode-abonnement en checkte de weersvoorspelling voor de volgende dag. Ze hoefde er haar bank voor te verlaten. De informatie arriveerde in seconden op een klein scherm in haar hand.
-
-Van postkoets naar mobiel internet. Dezelfde organisatielijn, getransformeerd door twee eeuwen technologie.
+## DEEL V: DIGITALE PIONIERS & INFRASTRUCTUUR (1985–2010)
+*Rekenen met de bodem*
 
 ---
 
-### De PTT: de staat als netwerkbouwer
+Op 14 augustus 1959 gebeurde er iets in het Groningse Slochteren wat de toekomst van Nederland voorgoed zou veranderen. Bij een proefboring in het land van boer Boon stuitte de Nederlandse Aardolie Maatschappij (NAM) op een gigantisch aardgasveld. Het was een van de grootste gasvondsten ter wereld — een onverwachte schat onder de voeten van een land in opbouw.
 
-De Posterijen, Telegrafie en Telefonie — de PTT — was van 1799 tot 1989 een staatsmonopolie. Ze beheerde de post, de telegrafie en de telefonie van Nederland, en ze deed dat met de betrouwbaarheid en de traagheid die grote staatsbedrijven eigen zijn.
-
-Maar de PTT was ook een technologische pionier.
-
-In 1884, slechts acht jaar na Bell's uitvinding van de telefoon, opende de PTT de eerste telefooncentrale in Amsterdam. Nederland was vroeg met de telefonie, en dat had consequenties: het telefoonnet dat in de twintigste eeuw werd gebouwd was van hoge kwaliteit. De kabels waren modern. De centrales waren up-to-date.
-
-Dat netwerk was de infrastructuur waarover het internet in de jaren negentig zijn weg vond naar de Nederlandse huiskamers. Breedbandinternet — via ISDN en later ADSL — maakte gebruik van het bestaande kopernetwerk van de PTT/KPN. Wie het netwerk bezit, bepaalt wie er gebruik van kan maken.
+De 'rekenmeester'-geest zag in dit gasveld niet alleen een bron van warmte, maar ook een gigantisch logistiek en technisch probleem dat opgelost moest worden. De vraag was hoe je miljoenen huishoudens en bedrijven in recordtempo kon aansluiten op dit nieuwe netwerk. Het was de grootste infrastructurele operatie in de Nederlandse geschiedenis — een masterclass in planning en engineering.
 
 ---
 
-### De privatisering van 1989
+### De machine van de bodem
 
-In 1989 werd de PTT geprivatiseerd — omgezet van staatsdienst naar naamloze vennootschap. Het was een beslissing die paste in de tijdgeest van de late jaren tachtig: de markt was efficiënter dan de staat, liberalisering was de oplossing voor bureaucratische traagheid.
+De NAM, een joint venture van Shell en Esso (nu ExxonMobil), werd de uitvoerder van dit gigantische project. De ingenieurs moesten de complexiteit van de diepe ondergrond vertalen naar betrouwbare productiemodellen. Het aardgasveld in Slochteren lag op bijna drie kilometer diepte, onder een dikke laag zout.
 
-De PTT werd KPN — Koninklijke PTT Nederland — en beursgenoteerd. Het was de grootste beursgang in de Nederlandse geschiedenis tot dat moment. Miljoenen Nederlanders kochten aandelen.
-
-De privatisering bracht voordelen: KPN werd sneller, commerciëler, meer gericht op klanttevredenheid. Maar ze bracht ook problemen. De focus op aandeelhouderswaarde conflicteerde soms met de brede maatschappelijke taak van een telefoonmaatschappij: iedereen verbinden, ook in dunbevolkte gebieden waar de kosten hoog en de marges laag zijn.
-
-En de privatisering genereerde een eigendomsprobleem dat tot op de dag van vandaag politiek gevoelig is: KPN bezit het vaste telefoon- en kabelnetwerk. Concurrenten willen toegang. Wie bepaalt de prijs?
+De rekenmeesters gebruikten geofysische modellen om de omvang en de druk van het gasveld te bepalen. Ze ontwierpen de infrastructuur: de boorlocaties, de zuiveringsinstallaties, en het landelijke netwerk van hogedrukleidingen. Alles werd doorgerekend op basis van de verwachte vraag naar energie voor de komende decennia. Nederland werd in minder dan tien jaar 'vergast'.
 
 ---
 
-### AMS-IX: Amsterdam als internetknooppunt
+### De 'Dutch Disease' als rekenfout
 
-Er is één aspect van de Nederlandse digitale infrastructuur dat weinig publieke aandacht krijgt maar buitengewoon groot is: de Amsterdam Internet Exchange, AMS-IX.
+Maar de zegen van het gas bleek ook een vloek te zijn. In de jaren zeventig en tachtig ontstond het fenomeen van de 'Dutch Disease'. De enorme inkomsten uit de gasexport zorgden voor een overwaardering van de gulden, wat de exportpositie van de industrie verzwakte. De overheid raakte verslaafd aan de gasbaten en gebruikte ze om de gaten in de begroting te dichten en de verzorgingsstaat uit te breiden.
 
-AMS-IX is het knooppunt waar internet-providers met elkaar verbinden — waar de netwerken van KPN, Ziggo, Google, Amazon, Netflix en honderden andere bedrijven met elkaar spreken. Elke keer dat u een Netflix-film bekijkt, een Google-zoekopdracht verstuurt of een e-mail ontvangt, is er een grote kans dat de data via Amsterdam zijn gereisd.
-
-AMS-IX is een van de grootste internetknooppunten ter wereld — consistent in de top drie naast Frankfurt en Londen. Op haar drukste momenten stroomt er meer dan 10 terabit per seconde door: genoeg voor tientallen miljoenen mensen tegelijk.
-
-Waarom Amsterdam?
-
-De geografische ligging helpt: Amsterdam zit op de kruising van de Atlantische kabels die Europa met Amerika verbinden en de landkabels die West-Europa met Oost-Europa verbinden. Maar ligging is niet genoeg. Frankfurt en Londen liggen ook strategisch.
-
-Het verschil is een combinatie van vroege keuzes — Piet Beertema's eerste Europese internetverbinding in 1988 was via het CWI — en een regulerend klimaat dat samenwerking faciliteerde. AMS-IX begon als een coöperatie waarbij alle deelnemers gelijke zeggenschap hadden. Het was, opnieuw, het poldermodel toegepast op netwerktechnologie.
+Achteraf bezien was de 'Dutch Disease' een kolossale macro-economische rekenfout. De modellen van Jan Tinbergen en het CPB hadden de effecten van de natuurlijke rijkdom op de lange termijn niet volledig doorzien. De focus lag op de korte termijn: de directe winst en de snelle modernisering van de huishoudens. De structurele gevolgen voor de economie werden over het hoofd gezien.
 
 ---
 
-### i-mode: de eerste keer mobiel internet
+### De trillingen van de werkelijkheid
 
-In het jaar 2002 lanceerde KPN i-mode in Nederland. Het was een mobiele internetdienst die in Japan al drie jaar eerder was gelanceerd door NTT DoCoMo — en die in Japan tientallen miljoenen gebruikers had getrokken.
+De grootste rekenfout van de NAM en de overheid bleek echter pas decennia later. De modellen van de ingenieurs gingen ervan uit dat de bodem stabiel zou blijven naarmate er meer gas werd gewonnen. Ze negeerden de mogelijkheid van bodemdaling en geïnduceerde aardbevingen.
 
-i-mode maakte het mogelijk om op je mobiele telefoon te internetten. Niet het internet zoals wij dat nu kennen — volledige websites, streaming video, real-time apps — maar een vereenvoudigde versie: nieuws, weersberichten, e-mail, eenvoudige spellen.
-
-Technisch was i-mode een compromis. Het gebruikte een eigen protocol — cHTML, een vereenvoudigde versie van HTML — dat was ontworpen voor de kleine schermen en trage verbindingen van mobiele telefoons. Het was niet compatibel met de gewone websites die via een pc-browser te bereiken waren.
-
-In Europa bleef i-mode een nichefenomeen. De doorbraak van mobiel internet wachtte op de iPhone (2007) en de opkomst van 3G en 4G-netwerken die breed internetten praktisch maakten.
-
-Maar i-mode was de eerste poging. En de les die ermee werd geleerd — dat mobiel internet een andere interface vereist dan desktop-internet, dat de beperkingen van het apparaat de ontwerp sturen — is vandaag de dag gemeengoed.
+Sinds de jaren negentig wordt Groningen geteisterd door bevingen, veroorzaakt door de winning van het gas. De schade aan huizen en de impact op de bewoners is enorm. De 'rekenmeester' was hier te optimistisch geweest over zijn macht over de bodem. De abstracte modellen van druk en volume hielden geen rekening met de fysieke kwetsbaarheid van het Groningse landschap en de mensen die er woonden.
 
 ---
 
-### Breedband en de infrastructuurdoorbraak
+### De erfenis van het gas
 
-De echte transformatie van de Nederlandse telecominfrastructuur vond plaats tussen 2000 en 2015.
+Vandaag de dag wordt de gaskraan in Groningen definitief dichtgedraaid. De erfenis van Slochteren is dubbelzinnig. Het heeft Nederland een enorme welvaart gebracht en de basis gelegd voor onze moderne energievoorziening. Maar het heeft ook geleid tot een diep wantrouwen in de technocratische benadering van grote maatschappelijke problemen.
 
-In 2000 had een minderheid van de Nederlandse huishoudens een breedbandinternetverbinding. In 2015 had meer dan 95% het. Die transformatie — een van de snelste en completest in de wereld — was het resultaat van twee parallelle investeringen: in het kopernetwerk van KPN (DSL) en in het kabelnetwerk van Ziggo en UPC (kabel-internet).
+De geschiedenis van Slochteren en de NAM leert ons dat technologische en economische modellen nooit neutraal zijn. Ze zijn gebouwd op aannames die getoetst moeten worden aan de werkelijkheid. De 'rekenmeesters'-geest moet nederig zijn in het licht van de complexiteit van de natuur en de samenleving.
 
-De competitie tussen die twee netwerken dreef de snelheden omhoog en de prijzen omlaag. Waar in andere Europese landen één of geen netwerk beschikbaar was, hadden de meeste Nederlanders een keuze. Die keuze was een marktprikkel.
-
-In 2010 begon KPN met de uitrol van glasvezelverbindingen — fiber to the home — die snelheden van 1 gigabit per seconde mogelijk maakten. Dat was tien keer sneller dan wat de meeste DSL-verbindingen leverden, en het was beschikbaar in steeds meer woonwijken.
-
-Vandaag heeft Nederland een van de meest uitgebreide glasvezelnetwerken in Europa. In een land dat ooit de wereld verbond met zeilschepen en telegraafkabels, verbindt het nu zijn eigen bevolking met lichtsnelheid.
+In een tijd waarin we moeten overschakelen naar duurzame energie, is de ervaring van de 'vergassing' van Nederland nog steeds relevant. We hebben opnieuw de precisie van de ingenieur en de visie van de planner nodig — maar ditmaal met een scherper oog voor de grenzen aan de groei en de impact op de leefomgeving.
 
 ---
 
-### Convergentie: de fusies van de 21ste eeuw
-
-De telecomgeschiedenis van de eenentwintigste eeuw is voornamelijk een verhaal van fusies.
-
-KPN fuseerde, overname en verloor activiteiten in Duitsland en België. Ziggo fuseerde met UPC en werd overgenomen door het Amerikaanse Liberty Global. Vodafone kocht Ziggo's concurrent Libertel op. En de grenzen tussen telefonie, internet en televisie verdwenen: elke aanbieder bood alles.
-
-Dit convergentieproces is wereldwijd, maar het heeft specifieke Nederlandse kenmerken. De Nederlandse markt is klein maar vroeg geliberaliseerd en heeft daardoor een hoge dichtheid van spelers gehad. De concurrentie heeft de kwaliteit van de infrastructuur op peil gehouden.
-
-En het AMS-IX-knooppunt blijft groeien. Elke nieuwe dienst — streaming video, cloud computing, AI-platforms — genereert meer dataverkeer. Elke toename in dataverkeer passeert grotendeels door Amsterdam.
-
-Een klein land met grote netwerken.
-
----
-
-*→ Verder naar [Hoofdstuk 13: ASML: de machine die chips maakt](deel5_h13.md)*
+*→ Verder naar [Hoofdstuk 13: Dijkstra's Twintig Minuten](deel5_h13.md)*
